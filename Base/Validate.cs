@@ -6,29 +6,50 @@ namespace Base
     {
         public static bool IsNumeric(string value)
         {
-            int outValue;
-            if (int.TryParse(value, out outValue))
-                return true;
-            else
-                return false;
+            try
+            {
+                int outValue;
+                if (int.TryParse(value, out outValue))
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public static bool IsDate(string value)
         {
-            DateTime outValue;
-            if (DateTime.TryParse(value, out outValue))
-                return true;
-            else
-                return false;
+            try
+            {
+                DateTime outValue;
+                if (DateTime.TryParse(value, out outValue))
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public static bool IsGuid(string value)
         {
-            Guid outValue;
-            if (Guid.TryParse(value, out outValue))
-                return true;
-            else
-                return false;
-        }       
+            try
+            {
+                Guid outValue;
+                if (Guid.TryParse(value, out outValue))
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
