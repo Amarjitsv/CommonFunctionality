@@ -1,0 +1,4 @@
+C:\Users\amarjitv\Documents\Visual Studio 2015\Projects\CommonFunctionality\Base\bin\Debug\Base.dll
+C:\Users\amarjitv\Documents\Visual Studio 2015\Projects\CommonFunctionality\Base\bin\Debug\Base.pdb
+C:\Users\amarjitv\Documents\Visual Studio 2015\Projects\CommonFunctionality\Base\obj\Debug\Base.dll
+C:\Users\amarjitv\Documents\Visual Studio 2015\Projects\CommonFunctionality\Base\obj\Debug\Base.pdb
